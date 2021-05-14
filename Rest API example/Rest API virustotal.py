@@ -8,7 +8,7 @@ def main():
 
 # The function that the home assignment ask
 def makeMarkdownTable(fileToCheck):
-    myApiKey = 'f5576d979d3e63956894546ffb3e6ff74c3e6e0f65859e7905ac8197f9d2ae57'
+    myApiKey = 'Ask me for key, or make your self'
     jsonReport, scansData = getReport(myApiKey, fileToCheck)
     makeFileToDillinger(jsonReport, scansData)
     return tableDesign(jsonReport, scansData)
