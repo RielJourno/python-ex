@@ -96,7 +96,3 @@ def makeFileToDillinger(jsonReport, scans):
             file.write(f"| {scans[0][i]} | {scans[1][i]} | \n")
 
 main()
-
-################################
-# Riel Journo - home assignment#
-################################
